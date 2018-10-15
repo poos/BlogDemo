@@ -1,0 +1,8 @@
+ViewController,click,buttonAction,trackName,trackkeys
+ViewController,click,buttonActionNext:,trackName,trackkeys
+TableViewController,tableSelect,tableView:didSelectRowAtIndexPath:,,
+ViewController,lifeCycle,viewDidLoad,,
+TableViewController,lifeCycle,viewDidLoad,,
+ViewController,lifeCycle,viewWillLayoutSubviews,,
+ViewController,other,buttonActionNext2:,,
+,,,,

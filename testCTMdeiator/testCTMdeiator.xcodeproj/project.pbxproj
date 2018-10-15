@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB2CDA4F176B334DCDC50BA /* Pods_testCTMdeiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3E74CC43D8C4119CEAFEDA /* Pods_testCTMdeiator.framework */; };
+		BD0CF0712170A163001B27D1 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CF06F2170A163001B27D1 /* Target.swift */; };
+		BD0CF0722170A163001B27D1 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CF0702170A163001B27D1 /* ViewControllerA.swift */; };
+		BDBABC4320D8EE5400E12059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBABC4220D8EE5400E12059 /* AppDelegate.swift */; };
+		BDBABC4520D8EE5400E12059 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBABC4420D8EE5400E12059 /* ViewController.swift */; };
+		BDBABC4820D8EE5400E12059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBABC4620D8EE5400E12059 /* Main.storyboard */; };
+		BDBABC4A20D8EE5700E12059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBABC4920D8EE5700E12059 /* Assets.xcassets */; };
+		BDBABC4D20D8EE5700E12059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBABC4B20D8EE5700E12059 /* LaunchScreen.storyboard */; };
+		BDBABC5820D8EE5700E12059 /* testCTMdeiatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBABC5720D8EE5700E12059 /* testCTMdeiatorTests.swift */; };
+		BDBABC6320D8EE5700E12059 /* testCTMdeiatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBABC6220D8EE5700E12059 /* testCTMdeiatorUITests.swift */; };
+		BDBABC7120D8F12300E12059 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBABC7020D8F12300E12059 /* ViewControllerB.swift */; };
+		BDBABC8220D91C6700E12059 /* CTMediator+A2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBABC8120D91C6700E12059 /* CTMediator+A2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBABC5420D8EE5700E12059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBABC3720D8EE5400E12059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBABC3E20D8EE5400E12059;
+			remoteInfo = testCTMdeiator;
+		};
+		BDBABC5F20D8EE5700E12059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBABC3720D8EE5400E12059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBABC3E20D8EE5400E12059;
+			remoteInfo = testCTMdeiator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79D545AC00775F11758453D0 /* Pods-testCTMdeiator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCTMdeiator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testCTMdeiator/Pods-testCTMdeiator.debug.xcconfig"; sourceTree = "<group>"; };
+		B27709F3AA5436B0EF9C969C /* Pods-testCTMdeiator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCTMdeiator.release.xcconfig"; path = "Pods/Target Support Files/Pods-testCTMdeiator/Pods-testCTMdeiator.release.xcconfig"; sourceTree = "<group>"; };
+		BD0CF06F2170A163001B27D1 /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		BD0CF0702170A163001B27D1 /* ViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		BDBABC3F20D8EE5400E12059 /* testCTMdeiator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCTMdeiator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBABC4220D8EE5400E12059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDBABC4420D8EE5400E12059 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDBABC4720D8EE5400E12059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDBABC4920D8EE5700E12059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBABC4C20D8EE5700E12059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDBABC4E20D8EE5700E12059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBABC5320D8EE5700E12059 /* testCTMdeiatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCTMdeiatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBABC5720D8EE5700E12059 /* testCTMdeiatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCTMdeiatorTests.swift; sourceTree = "<group>"; };
+		BDBABC5920D8EE5700E12059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBABC5E20D8EE5700E12059 /* testCTMdeiatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCTMdeiatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBABC6220D8EE5700E12059 /* testCTMdeiatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCTMdeiatorUITests.swift; sourceTree = "<group>"; };
+		BDBABC6420D8EE5700E12059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBABC7020D8F12300E12059 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		BDBABC8120D91C6700E12059 /* CTMediator+A2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CTMediator+A2.swift"; sourceTree = "<group>"; };
+		DF3E74CC43D8C4119CEAFEDA /* Pods_testCTMdeiator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCTMdeiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBABC3C20D8EE5400E12059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB2CDA4F176B334DCDC50BA /* Pods_testCTMdeiator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABC5020D8EE5700E12059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABC5B20D8EE5700E12059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45811EDA0D09994F9CA5FB1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF3E74CC43D8C4119CEAFEDA /* Pods_testCTMdeiator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40446B9B4669CACD2B3B978 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79D545AC00775F11758453D0 /* Pods-testCTMdeiator.debug.xcconfig */,
+				B27709F3AA5436B0EF9C969C /* Pods-testCTMdeiator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD0CF06E2170A163001B27D1 /* 此文件夹处于子模块项目中：已经分离的组件A，调用了B，但是只依赖CTMeditor */ = {
+			isa = PBXGroup;
+			children = (
+				BD0CF06F2170A163001B27D1 /* Target.swift */,
+				BD0CF0702170A163001B27D1 /* ViewControllerA.swift */,
+			);
+			path = "此文件夹处于子模块项目中：已经分离的组件A，调用了B，但是只依赖CTMeditor";
+			sourceTree = "<group>";
+		};
+		BDBABC3620D8EE5400E12059 = {
+			isa = PBXGroup;
+			children = (
+				BDBABC4120D8EE5400E12059 /* testCTMdeiator */,
+				BDBABC5620D8EE5700E12059 /* testCTMdeiatorTests */,
+				BDBABC6120D8EE5700E12059 /* testCTMdeiatorUITests */,
+				BDBABC4020D8EE5400E12059 /* Products */,
+				A40446B9B4669CACD2B3B978 /* Pods */,
+				45811EDA0D09994F9CA5FB1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBABC4020D8EE5400E12059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABC3F20D8EE5400E12059 /* testCTMdeiator.app */,
+				BDBABC5320D8EE5700E12059 /* testCTMdeiatorTests.xctest */,
+				BDBABC5E20D8EE5700E12059 /* testCTMdeiatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBABC4120D8EE5400E12059 /* testCTMdeiator */ = {
+			isa = PBXGroup;
+			children = (
+				BD0CF06E2170A163001B27D1 /* 此文件夹处于子模块项目中：已经分离的组件A，调用了B，但是只依赖CTMeditor */,
+				BDBABC8320D9FBDA00E12059 /* MainProject */,
+			);
+			path = testCTMdeiator;
+			sourceTree = "<group>";
+		};
+		BDBABC5620D8EE5700E12059 /* testCTMdeiatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABC5720D8EE5700E12059 /* testCTMdeiatorTests.swift */,
+				BDBABC5920D8EE5700E12059 /* Info.plist */,
+			);
+			path = testCTMdeiatorTests;
+			sourceTree = "<group>";
+		};
+		BDBABC6120D8EE5700E12059 /* testCTMdeiatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABC6220D8EE5700E12059 /* testCTMdeiatorUITests.swift */,
+				BDBABC6420D8EE5700E12059 /* Info.plist */,
+			);
+			path = testCTMdeiatorUITests;
+			sourceTree = "<group>";
+		};
+		BDBABC8320D9FBDA00E12059 /* MainProject */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABC4E20D8EE5700E12059 /* Info.plist */,
+				BDBABC4B20D8EE5700E12059 /* LaunchScreen.storyboard */,
+				BDBABC4920D8EE5700E12059 /* Assets.xcassets */,
+				BDBABC4620D8EE5400E12059 /* Main.storyboard */,
+				BDBABC4420D8EE5400E12059 /* ViewController.swift */,
+				BDBABC4220D8EE5400E12059 /* AppDelegate.swift */,
+				BDBABC8520D9FD5800E12059 /* 此文件夹位于主工程中，为了 A 不依赖 B，在主工程中创建支持调起 B 的分类（若日后 B 组件化可以再次页面修改 B 的对外信息） */,
+				BDBABC8420D9FBFC00E12059 /* 复杂的不易拆分的B部分 */,
+			);
+			path = MainProject;
+			sourceTree = "<group>";
+		};
+		BDBABC8420D9FBFC00E12059 /* 复杂的不易拆分的B部分 */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABC7020D8F12300E12059 /* ViewControllerB.swift */,
+			);
+			path = "复杂的不易拆分的B部分";
+			sourceTree = "<group>";
+		};
+		BDBABC8520D9FD5800E12059 /* 此文件夹位于主工程中，为了 A 不依赖 B，在主工程中创建支持调起 B 的分类（若日后 B 组件化可以再次页面修改 B 的对外信息） */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABC8120D91C6700E12059 /* CTMediator+A2.swift */,
+			);
+			path = "此文件夹位于主工程中，为了 A 不依赖 B，在主工程中创建支持调起 B 的分类（若日后 B 组件化可以再次页面修改 B 的对外信息）";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBABC3E20D8EE5400E12059 /* testCTMdeiator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBABC6720D8EE5700E12059 /* Build configuration list for PBXNativeTarget "testCTMdeiator" */;
+			buildPhases = (
+				7B75731B82CC408311C7234A /* [CP] Check Pods Manifest.lock */,
+				BDBABC3B20D8EE5400E12059 /* Sources */,
+				BDBABC3C20D8EE5400E12059 /* Frameworks */,
+				BDBABC3D20D8EE5400E12059 /* Resources */,
+				F96C134B8F3AE4E09F38217E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testCTMdeiator;
+			productName = testCTMdeiator;
+			productReference = BDBABC3F20D8EE5400E12059 /* testCTMdeiator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBABC5220D8EE5700E12059 /* testCTMdeiatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBABC6A20D8EE5700E12059 /* Build configuration list for PBXNativeTarget "testCTMdeiatorTests" */;
+			buildPhases = (
+				BDBABC4F20D8EE5700E12059 /* Sources */,
+				BDBABC5020D8EE5700E12059 /* Frameworks */,
+				BDBABC5120D8EE5700E12059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBABC5520D8EE5700E12059 /* PBXTargetDependency */,
+			);
+			name = testCTMdeiatorTests;
+			productName = testCTMdeiatorTests;
+			productReference = BDBABC5320D8EE5700E12059 /* testCTMdeiatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDBABC5D20D8EE5700E12059 /* testCTMdeiatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBABC6D20D8EE5700E12059 /* Build configuration list for PBXNativeTarget "testCTMdeiatorUITests" */;
+			buildPhases = (
+				BDBABC5A20D8EE5700E12059 /* Sources */,
+				BDBABC5B20D8EE5700E12059 /* Frameworks */,
+				BDBABC5C20D8EE5700E12059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBABC6020D8EE5700E12059 /* PBXTargetDependency */,
+			);
+			name = testCTMdeiatorUITests;
+			productName = testCTMdeiatorUITests;
+			productReference = BDBABC5E20D8EE5700E12059 /* testCTMdeiatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBABC3720D8EE5400E12059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = biesx;
+				TargetAttributes = {
+					BDBABC3E20D8EE5400E12059 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					BDBABC5220D8EE5700E12059 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BDBABC3E20D8EE5400E12059;
+					};
+					BDBABC5D20D8EE5700E12059 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BDBABC3E20D8EE5400E12059;
+					};
+				};
+			};
+			buildConfigurationList = BDBABC3A20D8EE5400E12059 /* Build configuration list for PBXProject "testCTMdeiator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBABC3620D8EE5400E12059;
+			productRefGroup = BDBABC4020D8EE5400E12059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBABC3E20D8EE5400E12059 /* testCTMdeiator */,
+				BDBABC5220D8EE5700E12059 /* testCTMdeiatorTests */,
+				BDBABC5D20D8EE5700E12059 /* testCTMdeiatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBABC3D20D8EE5400E12059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABC4D20D8EE5700E12059 /* LaunchScreen.storyboard in Resources */,
+				BDBABC4A20D8EE5700E12059 /* Assets.xcassets in Resources */,
+				BDBABC4820D8EE5400E12059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABC5120D8EE5700E12059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABC5C20D8EE5700E12059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B75731B82CC408311C7234A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testCTMdeiator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96C134B8F3AE4E09F38217E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testCTMdeiator/Pods-testCTMdeiator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testCTMdeiator/Pods-testCTMdeiator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBABC3B20D8EE5400E12059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABC8220D91C6700E12059 /* CTMediator+A2.swift in Sources */,
+				BDBABC4520D8EE5400E12059 /* ViewController.swift in Sources */,
+				BDBABC7120D8F12300E12059 /* ViewControllerB.swift in Sources */,
+				BDBABC4320D8EE5400E12059 /* AppDelegate.swift in Sources */,
+				BD0CF0722170A163001B27D1 /* ViewControllerA.swift in Sources */,
+				BD0CF0712170A163001B27D1 /* Target.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABC4F20D8EE5700E12059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABC5820D8EE5700E12059 /* testCTMdeiatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABC5A20D8EE5700E12059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABC6320D8EE5700E12059 /* testCTMdeiatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBABC5520D8EE5700E12059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBABC3E20D8EE5400E12059 /* testCTMdeiator */;
+			targetProxy = BDBABC5420D8EE5700E12059 /* PBXContainerItemProxy */;
+		};
+		BDBABC6020D8EE5700E12059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBABC3E20D8EE5400E12059 /* testCTMdeiator */;
+			targetProxy = BDBABC5F20D8EE5700E12059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDBABC4620D8EE5400E12059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBABC4720D8EE5400E12059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBABC4B20D8EE5700E12059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBABC4C20D8EE5700E12059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBABC6520D8EE5700E12059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDBABC6620D8EE5700E12059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBABC6820D8EE5700E12059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D545AC00775F11758453D0 /* Pods-testCTMdeiator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/testCTMdeiator/MainProject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bieshixuan.testCTMdeiator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBABC6920D8EE5700E12059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27709F3AA5436B0EF9C969C /* Pods-testCTMdeiator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/testCTMdeiator/MainProject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bieshixuan.testCTMdeiator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDBABC6B20D8EE5700E12059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testCTMdeiatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bieshixuan.testCTMdeiatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCTMdeiator.app/testCTMdeiator";
+			};
+			name = Debug;
+		};
+		BDBABC6C20D8EE5700E12059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testCTMdeiatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bieshixuan.testCTMdeiatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testCTMdeiator.app/testCTMdeiator";
+			};
+			name = Release;
+		};
+		BDBABC6E20D8EE5700E12059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testCTMdeiatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bieshixuan.testCTMdeiatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testCTMdeiator;
+			};
+			name = Debug;
+		};
+		BDBABC6F20D8EE5700E12059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testCTMdeiatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bieshixuan.testCTMdeiatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testCTMdeiator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBABC3A20D8EE5400E12059 /* Build configuration list for PBXProject "testCTMdeiator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBABC6520D8EE5700E12059 /* Debug */,
+				BDBABC6620D8EE5700E12059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBABC6720D8EE5700E12059 /* Build configuration list for PBXNativeTarget "testCTMdeiator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBABC6820D8EE5700E12059 /* Debug */,
+				BDBABC6920D8EE5700E12059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBABC6A20D8EE5700E12059 /* Build configuration list for PBXNativeTarget "testCTMdeiatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBABC6B20D8EE5700E12059 /* Debug */,
+				BDBABC6C20D8EE5700E12059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBABC6D20D8EE5700E12059 /* Build configuration list for PBXNativeTarget "testCTMdeiatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBABC6E20D8EE5700E12059 /* Debug */,
+				BDBABC6F20D8EE5700E12059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBABC3720D8EE5400E12059 /* Project object */;
+}

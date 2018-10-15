@@ -1,0 +1,6 @@
+framework module Pods_testCTMdeiator {
+  umbrella header "Pods-testCTMdeiator-umbrella.h"
+
+  export *
+  module * { export * }
+}
