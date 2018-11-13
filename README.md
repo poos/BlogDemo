@@ -26,3 +26,15 @@ Swift  函数式：NSMutableAttributeString，封装使用。
 -> Demo： [mapFliterReduce](https://github.com/poos/BlogDemo/tree/master/mapFliterReduce)
 
 Swift  高阶函数map，fliter，reduce 的实现，使用。
+
+
+### 博客： [页面加载](https://github.com/poos/BlogDemo/tree/master/GetNetDataDemo/README.md)
+-> Demo： [GetNetDataDemo](https://github.com/poos/BlogDemo/tree/master/GetNetDataDemo)
+
+页面加载框架。
+
+
+### 博客： [客户端的外部调试：JS 调试，应用互调调试，抓包和代理调试](https://poos.github.io/2018/11/12/ProjectConnectTest/)
+-> Demo： [GetNetDataDemo](https://github.com/poos/BlogDemo/tree/master/ProjectConnectTest)
+
+页面加载框架。
