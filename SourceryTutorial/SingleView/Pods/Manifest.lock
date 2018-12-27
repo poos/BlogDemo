@@ -1,0 +1,20 @@
+PODS:
+  - ObjectMapper (3.4.2)
+  - Sourcery (0.15.0)
+
+DEPENDENCIES:
+  - ObjectMapper
+  - Sourcery
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ObjectMapper
+    - Sourcery
+
+SPEC CHECKSUMS:
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Sourcery: 5895672cae353cdbfa95f3f4aaeb75a664d76f6a
+
+PODFILE CHECKSUM: 29d0417fafb6fb502fad081dabd53db282ca168d
+
+COCOAPODS: 1.5.2

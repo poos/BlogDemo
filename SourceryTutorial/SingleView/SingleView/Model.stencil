@@ -1,0 +1,23 @@
+import ObjectMapper
+
+{% for type in types.implementing.AutoMappable|struct %}
+// MARK: {{ type.name }} Mappable
+extension {{type.name}}: Mappable {
+    
+    init?(map: Map) {
+        return nil
+    }
+    
+    mutating func mapping(map: Map) {
+        {% for variable in type.storedVariables %}
+        {% if variable.isArray %}
+        {{variable.name}} <- map["{{variable.name}}.0.value"]
+        {% elif variable.isDictionary %}
+        {{variable.name}} <- map["{{variable.name}}.value"]
+        {% else %}
+        {{variable.name}} <- map["{{variable.annotations.jsonKey|default:variable.name}}"]
+        {% endif %}
+        {% endfor %}
+    }
+}
+{% endfor %}

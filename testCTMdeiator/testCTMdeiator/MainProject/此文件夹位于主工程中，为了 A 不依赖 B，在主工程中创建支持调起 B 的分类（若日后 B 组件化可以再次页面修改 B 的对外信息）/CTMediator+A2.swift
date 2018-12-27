@@ -27,7 +27,6 @@ extension CTMediator {
         param["id"] = 123
         param["callback"] = callback
         return self.performTarget("VCA", action: "viewControllerA", params: param, shouldCacheTarget: false) as? UIViewController ?? UIViewController()
-//        performTarget(<#T##targetName: String!##String!#>, action: <#T##String!#>, params: <#T##[AnyHashable : Any]!#>, shouldCacheTarget: <#T##Bool#>)
     }
     
     
