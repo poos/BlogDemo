@@ -37,4 +37,9 @@ Swift  高阶函数map，fliter，reduce 的实现，使用。
 ### 博客： [客户端的外部调试：JS 调试，应用互调调试，抓包和代理调试](https://poos.github.io/2018/11/12/ProjectConnectTest/)
 -> Demo： [ProjectConnectTest](https://github.com/poos/BlogDemo/tree/master/ProjectConnectTest)
 
-App web 调试，Other web 调试，Universal Links 和 App scheme 配置和测试，Charles https 抓包 和 代码中设置 https Proxy           
+Charles 安装包       
+
+### 博客： [使用 Sourcery 进行模板编程（meta编程）](https://poos.github.io/2018/12/27/Sourcery/)
+-> Demo： [ProjectConnectTest](https://github.com/poos/BlogDemo/tree/master/ProjectConnectTest)
+
+元编程的 Demo；项目中使用的 Demo。         
