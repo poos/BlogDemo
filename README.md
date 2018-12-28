@@ -39,7 +39,14 @@ Swift  高阶函数map，fliter，reduce 的实现，使用。
 
 Charles 安装包       
 
+
 ### 博客： [使用 Sourcery 进行模板编程（meta编程）](https://poos.github.io/2018/12/27/Sourcery/)
 -> Demo： [ProjectConnectTest](https://github.com/poos/BlogDemo/tree/master/ProjectConnectTest)
+
+元编程的 Demo；项目中使用的 Demo。         
+
+
+### 博客： [iOS 的 Bug 分析和解决](https://poos.github.io/2018/06/26/BugFix/)
+-> Demo：[poos/BlogDemo/BugFix](https://github.com/poos/BlogDemo/tree/master/BugFix)
 
 元编程的 Demo；项目中使用的 Demo。         
