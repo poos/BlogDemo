@@ -1,0 +1,6 @@
+http://www.cocoachina.com/swift/20151211/14617.html
+
+
+1.
+
+xcrun swiftc -Onone inputFile.swift -o resultFileName
