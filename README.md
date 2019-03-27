@@ -3,9 +3,9 @@
 
 ## 这个 repo 存放博客对应的 Demo
 
-### 博客： [Swift打点方案](https://poos.github.io/2019/03/26/Flutter2/)
+### 博客： [Flutter 《二》项目 Demo 运行，Dart 语言简单学习 ](https://poos.github.io/2019/03/26/Flutter2/)
 
-->Demo： [AspectOrientedProgramming](https://github.com/poos/BlogDemo/tree/master/FlutterAppDemo)
+->Demo： [FlutterAppDemo](https://github.com/poos/BlogDemo/tree/master/FlutterAppDemo)
 
 Flutter  列表，页面跳转，请求数据 Demo。
 
