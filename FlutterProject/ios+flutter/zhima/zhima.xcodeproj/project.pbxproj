@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2191EA9A22AB819BF60CF370 /* Pods_zhimaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B9FF20F96519E1391580F5 /* Pods_zhimaUITests.framework */; };
+		5D7D7966F47B2865B3214258 /* Pods_zhimaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7C9A09BE9C223924EBB2ED /* Pods_zhimaTests.framework */; };
+		7652731A94C78F8BB1705285 /* Pods_zhima.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE3A93C2062539EF40B239A /* Pods_zhima.framework */; };
+		BD2E7D472275979500972CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E7D462275979500972CDF /* AppDelegate.swift */; };
+		BD2E7D492275979500972CDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E7D482275979500972CDF /* ViewController.swift */; };
+		BD2E7D4C2275979500972CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2E7D4A2275979500972CDF /* Main.storyboard */; };
+		BD2E7D4E2275979600972CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2E7D4D2275979600972CDF /* Assets.xcassets */; };
+		BD2E7D512275979600972CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2E7D4F2275979600972CDF /* LaunchScreen.storyboard */; };
+		BD2E7D5C2275979600972CDF /* zhimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E7D5B2275979600972CDF /* zhimaTests.swift */; };
+		BD2E7D672275979600972CDF /* zhimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2E7D662275979600972CDF /* zhimaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD2E7D582275979600972CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2E7D3B2275979400972CDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2E7D422275979500972CDF;
+			remoteInfo = zhima;
+		};
+		BD2E7D632275979600972CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2E7D3B2275979400972CDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2E7D422275979500972CDF;
+			remoteInfo = zhima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0543C0E42E490912F8C53A14 /* Pods-zhimaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhimaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhimaTests/Pods-zhimaTests.release.xcconfig"; sourceTree = "<group>"; };
+		200FBA71BD676BA5D0B27417 /* Pods-zhima.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhima.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhima/Pods-zhima.release.xcconfig"; sourceTree = "<group>"; };
+		205EDF64C4FD7E421260D3E1 /* Pods-zhimaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhimaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhimaUITests/Pods-zhimaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D7C9A09BE9C223924EBB2ED /* Pods_zhimaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhimaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B9FF20F96519E1391580F5 /* Pods_zhimaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhimaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5E915B5F9224E4A001CD90 /* Pods-zhima.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhima.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhima/Pods-zhima.debug.xcconfig"; sourceTree = "<group>"; };
+		71726D581FF21309E68D4FF8 /* Pods-zhimaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhimaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhimaTests/Pods-zhimaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE3A93C2062539EF40B239A /* Pods_zhima.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhima.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2E7D432275979500972CDF /* zhima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2E7D462275979500972CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD2E7D482275979500972CDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD2E7D4B2275979500972CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD2E7D4D2275979600972CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD2E7D502275979600972CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD2E7D522275979600972CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2E7D572275979600972CDF /* zhimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2E7D5B2275979600972CDF /* zhimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhimaTests.swift; sourceTree = "<group>"; };
+		BD2E7D5D2275979600972CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2E7D622275979600972CDF /* zhimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2E7D662275979600972CDF /* zhimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhimaUITests.swift; sourceTree = "<group>"; };
+		BD2E7D682275979600972CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEB6EB7A01CA3423E92AF15 /* Pods-zhimaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhimaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhimaUITests/Pods-zhimaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2E7D402275979500972CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7652731A94C78F8BB1705285 /* Pods_zhima.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2E7D542275979600972CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7D7966F47B2865B3214258 /* Pods_zhimaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2E7D5F2275979600972CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2191EA9A22AB819BF60CF370 /* Pods_zhimaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182D4E7A509542D578FB976C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3A93C2062539EF40B239A /* Pods_zhima.framework */,
+				3D7C9A09BE9C223924EBB2ED /* Pods_zhimaTests.framework */,
+				43B9FF20F96519E1391580F5 /* Pods_zhimaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2E7D3A2275979400972CDF = {
+			isa = PBXGroup;
+			children = (
+				BD2E7D452275979500972CDF /* zhima */,
+				BD2E7D5A2275979600972CDF /* zhimaTests */,
+				BD2E7D652275979600972CDF /* zhimaUITests */,
+				BD2E7D442275979500972CDF /* Products */,
+				C68038DD97BB51B6E79B83DB /* Pods */,
+				182D4E7A509542D578FB976C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2E7D442275979500972CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2E7D432275979500972CDF /* zhima.app */,
+				BD2E7D572275979600972CDF /* zhimaTests.xctest */,
+				BD2E7D622275979600972CDF /* zhimaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2E7D452275979500972CDF /* zhima */ = {
+			isa = PBXGroup;
+			children = (
+				BD2E7D462275979500972CDF /* AppDelegate.swift */,
+				BD2E7D482275979500972CDF /* ViewController.swift */,
+				BD2E7D4A2275979500972CDF /* Main.storyboard */,
+				BD2E7D4D2275979600972CDF /* Assets.xcassets */,
+				BD2E7D4F2275979600972CDF /* LaunchScreen.storyboard */,
+				BD2E7D522275979600972CDF /* Info.plist */,
+			);
+			path = zhima;
+			sourceTree = "<group>";
+		};
+		BD2E7D5A2275979600972CDF /* zhimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2E7D5B2275979600972CDF /* zhimaTests.swift */,
+				BD2E7D5D2275979600972CDF /* Info.plist */,
+			);
+			path = zhimaTests;
+			sourceTree = "<group>";
+		};
+		BD2E7D652275979600972CDF /* zhimaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2E7D662275979600972CDF /* zhimaUITests.swift */,
+				BD2E7D682275979600972CDF /* Info.plist */,
+			);
+			path = zhimaUITests;
+			sourceTree = "<group>";
+		};
+		C68038DD97BB51B6E79B83DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E915B5F9224E4A001CD90 /* Pods-zhima.debug.xcconfig */,
+				200FBA71BD676BA5D0B27417 /* Pods-zhima.release.xcconfig */,
+				71726D581FF21309E68D4FF8 /* Pods-zhimaTests.debug.xcconfig */,
+				0543C0E42E490912F8C53A14 /* Pods-zhimaTests.release.xcconfig */,
+				FEEB6EB7A01CA3423E92AF15 /* Pods-zhimaUITests.debug.xcconfig */,
+				205EDF64C4FD7E421260D3E1 /* Pods-zhimaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2E7D422275979500972CDF /* zhima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2E7D6B2275979600972CDF /* Build configuration list for PBXNativeTarget "zhima" */;
+			buildPhases = (
+				492E09DEFE293FB0CF0A8DE7 /* [CP] Check Pods Manifest.lock */,
+				BD2E7D3F2275979500972CDF /* Sources */,
+				BD2E7D402275979500972CDF /* Frameworks */,
+				BD2E7D412275979500972CDF /* Resources */,
+				3F7D9C3C2CABD083BFD10A5E /* [CP] Embed Pods Frameworks */,
+				BD2E7D74227599ED00972CDF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhima;
+			productName = zhima;
+			productReference = BD2E7D432275979500972CDF /* zhima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD2E7D562275979600972CDF /* zhimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2E7D6E2275979600972CDF /* Build configuration list for PBXNativeTarget "zhimaTests" */;
+			buildPhases = (
+				72248CA4544DCFD030B62D7C /* [CP] Check Pods Manifest.lock */,
+				BD2E7D532275979600972CDF /* Sources */,
+				BD2E7D542275979600972CDF /* Frameworks */,
+				BD2E7D552275979600972CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2E7D592275979600972CDF /* PBXTargetDependency */,
+			);
+			name = zhimaTests;
+			productName = zhimaTests;
+			productReference = BD2E7D572275979600972CDF /* zhimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD2E7D612275979600972CDF /* zhimaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2E7D712275979600972CDF /* Build configuration list for PBXNativeTarget "zhimaUITests" */;
+			buildPhases = (
+				165149540C5B419303ED50FC /* [CP] Check Pods Manifest.lock */,
+				BD2E7D5E2275979600972CDF /* Sources */,
+				BD2E7D5F2275979600972CDF /* Frameworks */,
+				BD2E7D602275979600972CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2E7D642275979600972CDF /* PBXTargetDependency */,
+			);
+			name = zhimaUITests;
+			productName = zhimaUITests;
+			productReference = BD2E7D622275979600972CDF /* zhimaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD2E7D3B2275979400972CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = biesx;
+				TargetAttributes = {
+					BD2E7D422275979500972CDF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BD2E7D562275979600972CDF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BD2E7D422275979500972CDF;
+					};
+					BD2E7D612275979600972CDF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BD2E7D422275979500972CDF;
+					};
+				};
+			};
+			buildConfigurationList = BD2E7D3E2275979400972CDF /* Build configuration list for PBXProject "zhima" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD2E7D3A2275979400972CDF;
+			productRefGroup = BD2E7D442275979500972CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2E7D422275979500972CDF /* zhima */,
+				BD2E7D562275979600972CDF /* zhimaTests */,
+				BD2E7D612275979600972CDF /* zhimaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2E7D412275979500972CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2E7D512275979600972CDF /* LaunchScreen.storyboard in Resources */,
+				BD2E7D4E2275979600972CDF /* Assets.xcassets in Resources */,
+				BD2E7D4C2275979500972CDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2E7D552275979600972CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2E7D602275979600972CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165149540C5B419303ED50FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhimaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F7D9C3C2CABD083BFD10A5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zhima/Pods-zhima-frameworks.sh",
+				"${PODS_ROOT}/../../zhima_flutter/.ios/Flutter/engine/Flutter.framework",
+				"${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterPluginRegistrant.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhima/Pods-zhima-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		492E09DEFE293FB0CF0A8DE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhima-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72248CA4544DCFD030B62D7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhimaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2E7D74227599ED00972CDF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.v\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2E7D3F2275979500972CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2E7D492275979500972CDF /* ViewController.swift in Sources */,
+				BD2E7D472275979500972CDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2E7D532275979600972CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2E7D5C2275979600972CDF /* zhimaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2E7D5E2275979600972CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2E7D672275979600972CDF /* zhimaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD2E7D592275979600972CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2E7D422275979500972CDF /* zhima */;
+			targetProxy = BD2E7D582275979600972CDF /* PBXContainerItemProxy */;
+		};
+		BD2E7D642275979600972CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2E7D422275979500972CDF /* zhima */;
+			targetProxy = BD2E7D632275979600972CDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD2E7D4A2275979500972CDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2E7D4B2275979500972CDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD2E7D4F2275979600972CDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2E7D502275979600972CDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD2E7D692275979600972CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD2E7D6A2275979600972CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2E7D6C2275979600972CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5E915B5F9224E4A001CD90 /* Pods-zhima.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = zhima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhimawenda.zhima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2E7D6D2275979600972CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200FBA71BD676BA5D0B27417 /* Pods-zhima.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = zhima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhimawenda.zhima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD2E7D6F2275979600972CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71726D581FF21309E68D4FF8 /* Pods-zhimaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhimawenda.zhimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhima.app/zhima";
+			};
+			name = Debug;
+		};
+		BD2E7D702275979600972CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0543C0E42E490912F8C53A14 /* Pods-zhimaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhimaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhimawenda.zhimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhima.app/zhima";
+			};
+			name = Release;
+		};
+		BD2E7D722275979600972CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEB6EB7A01CA3423E92AF15 /* Pods-zhimaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhimaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhimawenda.zhimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zhima;
+			};
+			name = Debug;
+		};
+		BD2E7D732275979600972CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205EDF64C4FD7E421260D3E1 /* Pods-zhimaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zhimaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhimawenda.zhimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zhima;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2E7D3E2275979400972CDF /* Build configuration list for PBXProject "zhima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2E7D692275979600972CDF /* Debug */,
+				BD2E7D6A2275979600972CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2E7D6B2275979600972CDF /* Build configuration list for PBXNativeTarget "zhima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2E7D6C2275979600972CDF /* Debug */,
+				BD2E7D6D2275979600972CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2E7D6E2275979600972CDF /* Build configuration list for PBXNativeTarget "zhimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2E7D6F2275979600972CDF /* Debug */,
+				BD2E7D702275979600972CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2E7D712275979600972CDF /* Build configuration list for PBXNativeTarget "zhimaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2E7D722275979600972CDF /* Debug */,
+				BD2E7D732275979600972CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD2E7D3B2275979400972CDF /* Project object */;
+}

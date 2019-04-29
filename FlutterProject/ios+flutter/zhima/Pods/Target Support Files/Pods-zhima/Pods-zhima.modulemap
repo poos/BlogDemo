@@ -1,0 +1,6 @@
+framework module Pods_zhima {
+  umbrella header "Pods-zhima-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_zhimaTests {
+  umbrella header "Pods-zhimaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

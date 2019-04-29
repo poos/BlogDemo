@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - login (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - login (from `.symlinks/plugins/login/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  login:
+    :path: ".symlinks/plugins/login/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  login: 6d3fe17d6c589709a41184dd170eec5aee99f6c5
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.5.2

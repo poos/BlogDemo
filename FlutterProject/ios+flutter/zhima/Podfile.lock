@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../zhima_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../zhima_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../zhima_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../zhima_flutter/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  FlutterPluginRegistrant: 5f33f54e5f25444620ff39f2bdee4262d673ec7b
+
+PODFILE CHECKSUM: 03a1abd5e3f0f7bdf0fa9b5a563429b5db160017
+
+COCOAPODS: 1.5.2
