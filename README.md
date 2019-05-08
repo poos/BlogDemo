@@ -3,6 +3,12 @@
 
 ## 这个 repo 存放博客对应的 Demo
 
+### 博客： [Flutter 技术分享 - State Manage 五大方案，打包和自动化，与原生项目互嵌](https://poos.github.io/2019/05/07/FlutterDevelop/)
+
+->Demo： [FlutterAppDemo](https://github.com/poos/BlogDemo/tree/master/FlutterProject)
+
+Mobx Demo。Flutter 包的实现，调用原生 iOS 方法，调用原生 Android 方法。Android 加载 Flutter 包 Demo。iOS 加载 Flutter 包 Demo。
+
 ### 博客： [Flutter 《二》项目 Demo 运行，Dart 语言简单学习 ](https://poos.github.io/2019/03/27/FlutterDemo/)
 
 ->Demo： [FlutterAppDemo](https://github.com/poos/BlogDemo/tree/master/FlutterAppDemo)
